@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-starter",
+  "version": "0.0.1",
+  "description": "Vuepress template Deploy",
+  "main": "index.js",
+  "authors": {
+    "name": "Silviya Stancheva",
+    "email": "silviya.stoilova@gmail.com"
+  },
+  "repository": "/vuepress-starter",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "bash deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
